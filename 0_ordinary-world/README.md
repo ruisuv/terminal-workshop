@@ -17,20 +17,33 @@ For Windows users:
 
 - Download Ubuntu image 
 
-  `docker pull ubuntu`
-- Get the container id 
-
-    `docker ps -f ancestor=ubuntu`
-  - Output should be something like
   ```
-  CONTAINER ID   IMAGE           COMMAND   CREATED       STATUS       PORTS     NAMES
-  d01d18af48ad   ubuntu:latest   "bash"    4 hours ago   Up 3 hours             elated_brahmagupta
+  docker pull ubuntu
+  docker images
+  docker run -it ubuntu bash
   ```
-- Access to the new container using the CONTAINER ID from the previous step 
-
-  `docker exec -it $CONTAINER_ID bash`
-- Verify if everything is ok by doing your first `ls`. Output should be similar to:
+- Verify everything is ok by doing your first `ls`. Output should be similar to:
     ```
     root@d01d18af48ad:/# ls
     bin  boot  dev  etc  home  lib  media  mnt  opt  proc  root  run  sbin  sd.txt  srv  sys  tmp  usr  var
     ```
+
+- Run the following command for listing the OS version:
+  ```
+  cat /etc/os-release
+  ```
+  - Output should be something similar to this:
+  ```
+  PRETTY_NAME="Ubuntu 22.04 LTS"
+  NAME="Ubuntu"
+  VERSION_ID="22.04"
+  VERSION="22.04 LTS (Jammy Jellyfish)"
+  VERSION_CODENAME=jammy
+  ID=ubuntu
+  ID_LIKE=debian
+  HOME_URL="https://www.ubuntu.com/"
+  SUPPORT_URL="https://help.ubuntu.com/"
+  BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+  PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+  UBUNTU_CODENAME=jammy
+  ```
