@@ -16,7 +16,7 @@ From your local computer `cp`  the file
 
 `docker cp 1_call-to-the-adventure/.ubuntu-setup d01d18af48ad:/.dotfiles`
 
-From Ubuntu Container run it
+From Ubuntu Container run it. You will need to accept by pressing `Y` for each installation.
 ```
 ls -lha .dotfiles
 sh .dotfiles/.ubuntu-setup
@@ -35,15 +35,15 @@ with their dependencies.
 - Pull to your local machine the latest dependencies
 
   `apt update`
-- Install the following tools we will be using for this workshop
+- Install the following tools we will be using for this workshop. You will need to accept by pressing `Y` for each installation.
   ```
-        apt-get update
-        apt-get install vim
-        apt-get install nano
-        apt-get install curl
-        apt-get install unzip
-        apt-get install zip
-        apt-get install git
+  apt-get update
+  apt-get install vim
+  apt-get install nano
+  apt-get install curl
+  apt-get install unzip
+  apt-get install zip
+  apt-get install git
     ```
 - Get [SDKMAN](https://sdkman.io/) for working with Java
 
