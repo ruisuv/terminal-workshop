@@ -1,0 +1,12 @@
+diff --git a/src/main/resources/application.yaml b/src/main/resources/application.yaml
+index b67ae42..30d002f 100644
+--- a/src/main/resources/application.yaml
++++ b/src/main/resources/application.yaml
+@@ -2,4 +2,4 @@ spring:
+   kafka:
+     bootstrap-servers: localhost:9092
+     producer:
+-      topic-name: messages-test
+\ No newline at end of file
++      topic-name: messages
+\ No newline at end of file

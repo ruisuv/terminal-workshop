@@ -1,0 +1,16 @@
+#/bin/bash
+apt-get update
+apt-get install vim
+apt-get install nano 
+apt-get install curl 
+apt-get install unzip 
+apt-get install zip
+apt-get install git
+curl -s "https://get.sdkman.io"
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+sdk version
+sdk install java 8.0.292-open
+apt-get install zsh 
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+
