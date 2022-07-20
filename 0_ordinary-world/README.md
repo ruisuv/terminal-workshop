@@ -20,7 +20,9 @@ For Windows users:
   ```
   docker pull ubuntu
   docker images
-  docker run -it ubuntu bash
+  docker create $IMAGE_ID
+  docker ps -f ancestor=ubuntu
+  docker exec -it $CONTAINER_ID bash
   ```
 - Verify everything is ok by doing your first `ls`. Output should be similar to:
     ```
