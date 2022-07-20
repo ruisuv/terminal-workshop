@@ -1,0 +1,6 @@
+#/bin/bash
+wget https://dlcdn.apache.org/kafka/3.2.0/kafka_2.12-3.2.0.tgz
+mkdir /kafka
+mv kafka_2.12-3.2.0.tgz /kafka
+sh /kafka/kafka_2.12-3.2.0/bin/zookeeper-server-start.sh /kafka/kafka_2.12-3.2.0/config/zookeeper.properties &
+sh /kafka/kafka_2.12-3.2.0/bin/kafka-server-start.sh /kafka/kafka_2.12-3.2.0/config/server.properties &
