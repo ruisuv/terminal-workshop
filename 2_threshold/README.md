@@ -30,6 +30,6 @@ Create a fork from this repo [kafka-hello-world-terminal](https://github.com/rui
 1. Download it
 2. Copy it to Ubuntu image
     ```
-    docker cp 2_threshold/kafka-hello-world-terminal-main.zip $CONTAINER_ID:/repos
+   docker cp 2_threshold/kafka-hello-world-terminal-main.zip $CONTAINER_ID:/repos
     ```
 3. 
