@@ -11,10 +11,11 @@ take it as a base for creating their atmosphere and for letting people to experi
 
 ## Software Development
 Have you ever face a situation that challenges you to enter to a unknown world?
-I faced it when I was on college and my laptop died and the only Operative System I could install it was [Ubuntu](https://ubuntu.com/).
+I faced it when I was on college and my laptop died and the only Operative System I could install was [Ubuntu](https://ubuntu.com/).
 It was a very good opportunity to learn some command line commands in order to be able to use an external monitor.
 
-Recently I had needed to work on a remote environment with no GUI. And I know I will be there are more challenges coming.
+Recently I have been working to work on a remote environment with no GUI. And I know there are more challenges coming.
+
 
 
 
